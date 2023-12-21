@@ -9,7 +9,8 @@ export default function App() {
     <>
       <Navigation />
       <Routes>
-        <Route path='/' element={<ProductsPage />} />
+        <Route path='/online-store-react' element={<ProductsPage />} />
+        <Route path='/contacts' element={<ContactsPage />} />
         <Route path='/about' element={<AboutPage />} />
       </Routes>
     </>

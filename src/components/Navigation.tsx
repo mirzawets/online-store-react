@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navigation() {
   return (
-    <nav className='h-[50px] flex justify-between items-center px-5 bg-gray-500 text-white'>
+    <nav className='h-[50px] flex justify-between items-center px-5 bg-cyan-950 text-white'>
       <span className='font-bold'>
         <Link to='/online-store-react'>Online Store</Link>
       </span>
